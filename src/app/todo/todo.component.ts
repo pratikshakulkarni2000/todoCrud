@@ -106,7 +106,7 @@ export class TodoComponent implements OnInit {
     this._snackBar.open(`The TodoItem updated ${Updated_obj.todoId} successfully!!!`,'Close',{
       horizontalPosition : 'right',
       verticalPosition : 'bottom',
-      duration : 3000
+      duration :2000
     })
 
   }
